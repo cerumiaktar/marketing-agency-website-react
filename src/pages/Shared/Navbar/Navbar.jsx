@@ -1,6 +1,13 @@
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
+    const links = <>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/services">Services</NavLink></li>
+        <li><NavLink to="/blogs">Blogs</NavLink></li>
+        <li><NavLink to="/about">About Us</NavLink></li>
+    </>
     return (
         <div className="bg-base-100 shadow-sm">
             <div className="navbar container mx-auto">
@@ -11,37 +18,19 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            className="menu menu-sm dropdown-content text-base bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            {links}
                         </ul>
                     </div>
                     <a className=""><img src="https://i.ibb.co/Rp9nD8c5/agency-logo.png" alt="" /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <details>
-                                <summary>Parent</summary>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><a>Item 3</a></li>
+                    <ul className="menu text-base menu-horizontal px-1">
+                        {links}
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <a className="btn text-lg text-white bg-linear-to-bl from-[#C049A7] to-[#6C3CE9]">Contact Us</a>
                 </div>
             </div>
         </div>
