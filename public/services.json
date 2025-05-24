@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/7tCFbTJ9/Social-Media-Marketing-1.png",
+        "title": "Social Media Marketing",
+        "short_description": "Social media marketing is the use of social media platforms"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/DfV11ZWN/web-design-1.png",
+        "title": "Web Design",
+        "short_description": "Social media marketing is the use of social media platforms"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/27sx58xB/content-marketing-icon.png",
+        "title": "Content Marketing",
+        "short_description": "Social media marketing is the use of social media platforms"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/kgvyPzH1/seo-optimization-1.png",
+        "title": "SEO",
+        "short_description": "Social media marketing is the use of social media platforms"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co.com/ntcXQGZ/Graphic-Design-1.png",
+        "title": "Graphic Design",
+        "short_description": "Social media marketing is the use of social media platforms"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co.com/7JGR2kbL/SEM-1.png",
+        "title": "SEM",
+        "short_description": "Social media marketing is the use of social media platforms"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co.com/TqmQxJVT/Web-Development.png",
+        "title": "Web Development",
+        "short_description": "Social media marketing is the use of social media platforms"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co.com/67yMrfxT/app-development.png",
+        "title": "App Development",
+        "short_description": "Social media marketing is the use of social media platforms"
+    }
+]
