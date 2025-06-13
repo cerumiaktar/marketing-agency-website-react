@@ -11,7 +11,7 @@ const Services = () => {
         .then(data =>setServices(data))
     } ,[]);
     return (
-        <div className="container mx-auto mt-16 mb-16">
+        <div className="container mx-auto mt-20 mb-20">
             <h1 class="text-2xl font-medium text-center mb-8">Our Services</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 {
