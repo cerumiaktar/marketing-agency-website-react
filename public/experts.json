@@ -1,0 +1,22 @@
+[
+  {
+    "img": "https://i.ibb.co.com/nspVdTvY/1-2.png",
+    "title": "John Doe",
+    "designation": "Frontend Developer"
+  },
+  {
+    "img": "https://i.ibb.co.com/HTNwZDDc/2.png",
+    "title": "Jane Smith",
+    "designation": "UI/UX Designer"
+  },
+  {
+    "img": "https://i.ibb.co.com/d4KV6vz5/3.png",
+    "title": "Michael Lee",
+    "designation": "React Developer"
+  },
+  {
+    "img": "https://i.ibb.co.com/npK6ZZF/4.png",
+    "title": "Emily Clark",
+    "designation": "Product Designer"
+  }
+]
