@@ -8,7 +8,7 @@ const Expert = ({ expert }) => {
                 <figure>
                     <img className="w-full"
                         src={img}
-                        alt="Shoes" />
+                        alt="Experts" />
                 </figure>
                 <div className="card-body text-center">
                     <h2 className="card-title mx-auto">{title}</h2>

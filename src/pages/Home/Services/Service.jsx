@@ -8,7 +8,7 @@ const Service = ({ service }) => {
                 <figure>
                     <img
                         src={img}
-                        alt="Shoes" />
+                        alt="Services" />
                 </figure>
                 <div className="card-body text-center">
                     <h2 className="card-title mx-auto">{title}</h2>
