@@ -11,7 +11,7 @@ const Experts = () => {
         .then(data => setExperts(data))
     } ,[])
     return (
-        <div className="container mx-auto mb-16">
+        <div className="container mx-auto">
             <h1 class="text-2xl font-medium text-center mb-8 dark:text-black">Our Experts</h1>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {
@@ -19,6 +19,7 @@ const Experts = () => {
                 }
             </div>
         </div>
+        
     );
 };
 

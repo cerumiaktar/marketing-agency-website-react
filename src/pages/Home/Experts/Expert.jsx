@@ -3,7 +3,7 @@
 const Expert = ({ expert }) => {
     const { img, title, designation } = expert;
     return (
-        <div>
+        <div className="mb-16">
             <div className="card bg-base-100 dark:bg-white shadow-sm">
                 <figure>
                     <img className="w-full"
