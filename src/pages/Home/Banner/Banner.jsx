@@ -15,7 +15,7 @@ const Banner = () => {
                             Unlock your business's full potential with our expert guidance and innovative strategies
                             tailored solutions that drive growth, and set you apart from the competition.
                         </p>
-                        <button className="btn bg-white">Contact Us</button>
+                        <button className="btn bg-white dark:text-black dark:border-none">Contact Us</button>
                     </div>
                 </div>
             </div>
