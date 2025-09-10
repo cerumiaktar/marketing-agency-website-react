@@ -9,7 +9,7 @@ const Navbar = () => {
         <li><NavLink to="/about">About Us</NavLink></li>
     </>
     return (
-        <div className="bg-base-100 shadow-sm">
+        <div className="bg-base-100 dark:bg-white dark:text-black shadow-sm">
             <div className="navbar container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -30,7 +30,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn text-lg text-white bg-linear-to-bl from-[#C049A7] to-[#6C3CE9]">Contact Us</a>
+                    <a className="btn text-lg text-white bg-linear-to-bl from-[#C049A7] to-[#6C3CE9] dark:border-none">Contact Us</a>
                 </div>
             </div>
         </div>
