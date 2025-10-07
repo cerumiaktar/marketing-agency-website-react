@@ -1,0 +1,23 @@
+[
+  {
+    "profile": "https://i.ibb.co.com/S4qvF2TS/Ellipse-1-3.png",
+    "name": "Sophia Anderson",
+    "designation": "UI/UX Designer",
+    "description": "Amazing design sense! The layout was clean, consistent, and aligned perfectly with our brand vision.",
+    "rating": "⭐⭐⭐⭐⭐"
+  },
+  {
+    "profile": "https://i.ibb.co.com/C3HPShLg/Ellipse-1-1.png",
+    "name": "Liam Carter",
+    "designation": "Front-End Developer",
+    "description": "Great collaboration experience. The code was well structured and easy to integrate into our system.",
+    "rating": "⭐⭐⭐⭐"
+  },
+  {
+    "profile": "https://i.ibb.co.com/5gJJNBR4/Ellipse-1.png",
+    "name": "Ava Martinez",
+    "designation": "Project Manager",
+    "description": "Professional and creative. Delivered the project before the deadline with perfect responsiveness.",
+    "rating": "⭐⭐⭐⭐⭐"
+  }
+]
