@@ -8,11 +8,11 @@ const Review = ({ review}) => {
                     <div className="flex items-center gap-3">
                         <img className="w-12" src={profile} alt="" />
                         <div>
-                            <h2 className="card-title">{name}</h2>
-                            <p>{designation}</p>
+                            <h2 className="card-title dark:text-black">{name}</h2>
+                            <p className="dark:text-[#333333]">{designation}</p>
                         </div>
                     </div>
-                    <p>{description}</p>
+                    <p className="dark:text-[#333333]">{description}</p>
                     <div className="card-actions">
                        <p>{rating}</p>
                     </div>
