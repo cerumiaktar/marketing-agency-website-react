@@ -3,12 +3,18 @@ const Review = ({ review}) => {
     const { profile, name, designation, description, rating } = review;
     return (
         <div>
-            <div className="card card-border bg-base-100 shadow-2xl border-[#6C3CE980]">
+            <div className="card card-border bg-base-100 dark:bg-white shadow-2xl border-[#6C3CE980]">
                 <div className="card-body">
-                    <h2 className="card-title">Card Title</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                    <div className="flex items-center gap-3">
+                        <img className="w-12" src={profile} alt="" />
+                        <div>
+                            <h2 className="card-title">{name}</h2>
+                            <p>{designation}</p>
+                        </div>
+                    </div>
+                    <p>{description}</p>
+                    <div className="card-actions">
+                       <p>{rating}</p>
                     </div>
                 </div>
             </div>
