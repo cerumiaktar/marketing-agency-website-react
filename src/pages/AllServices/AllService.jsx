@@ -1,6 +1,7 @@
 import React from 'react';
 
-const AllService = () => {
+const AllService = ({allService}) => {
+    const {id,img,title,short_description} = allService;
     return (
         <div>
             
