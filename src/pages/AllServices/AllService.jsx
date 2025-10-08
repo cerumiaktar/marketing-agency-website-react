@@ -1,10 +1,23 @@
 import React from 'react';
 
-const AllService = ({allService}) => {
-    const {id,img,title,short_description} = allService;
+const AllService = ({ allService }) => {
+    const { id, img, title, short_description } = allService;
     return (
-        <div>
-            
+        <div className='flex grow'>
+            <div className="card bg-base-100 dark:bg-white border border-[#6C3CE980] shadow-2xl py-4">
+                <figure>
+                    <img
+                        src={img}
+                        alt="Services" />
+                </figure>
+                <div className="card-body text-center">
+                    <h2 className="card-title mx-auto dark:text-black">{title}</h2>
+                    <p className="md:w-8/12 mx-auto text-[#403D3D]">{short_description}</p>
+                    <div className="card-actions">
+                        <button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] text-white w-full dark:border-none">Buy Now</button>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

@@ -3,7 +3,7 @@
 const Service = ({ service }) => {
     const { img, title, short_description } = service;
     return (
-        <div>
+        <div className='flex grow'>
             <div className="card bg-base-100 dark:bg-white border border-[#6C3CE980] shadow-2xl py-4">
                 <figure>
                     <img
