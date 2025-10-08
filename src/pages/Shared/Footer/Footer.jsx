@@ -1,4 +1,4 @@
-import { FaFacebook,FaInstagramSquare,FaLinkedin,FaYoutubeSquare } from "react-icons/fa";
+import { FaFacebookSquare ,FaInstagramSquare,FaLinkedin,FaYoutubeSquare } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <div className="grid grid-flow-col gap-4">
-                        <a className="text-2xl"><FaFacebook /></a>
+                        <a className="text-2xl"><FaFacebookSquare /></a>
                         <a className="text-2xl"><FaInstagramSquare /></a>
                         <a className="text-2xl"><FaLinkedin /></a>
                         <a className="text-2xl"><FaYoutubeSquare /></a>
