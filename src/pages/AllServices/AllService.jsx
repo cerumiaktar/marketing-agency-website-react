@@ -14,7 +14,7 @@ const AllService = ({ allService }) => {
                     <h2 className="card-title mx-auto dark:text-black">{title}</h2>
                     <p className="md:w-8/12 mx-auto text-[#403D3D]">{short_description}</p>
                     <div className="card-actions">
-                        <button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] text-white w-full dark:border-none">Buy Now</button>
+                        <button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] text-white w-full dark:border-none">View Details</button>
                     </div>
                 </div>
             </div>
