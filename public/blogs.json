@@ -7,19 +7,19 @@
     },
     {
         "id": 2,
-        "img": "https://example.com/images/product2.jpg",
+        "img": "../src/assets/img/blog_img_2.png",
         "title": "E-Commerce Dashboard UI",
         "description": "A clean e-commerce analytics dashboard template for monitoring sales, customers, and product performance."
     },
     {
         "id": 3,
-        "img": "https://example.com/images/product3.jpg",
+        "img": "../src/assets/img/blog_img_3.png",
         "title": "Travel App UI Kit",
         "description": "A mobile app UI kit featuring destination cards, hotel listings, and smooth booking flow screens."
     },
     {
         "id": 4,
-        "img": "https://example.com/images/product4.jpg",
+        "img": "../src/assets/img/blog_img_4.png",
         "title": "Restaurant Landing Page",
         "description": "A visually appealing restaurant website layout with menu highlights, chef sections, and online reservation options."
     }
