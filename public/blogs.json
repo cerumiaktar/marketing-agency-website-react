@@ -2,25 +2,25 @@
     {
         "id": 1,
         "img": "../src/assets/img/blog_img_1.png",
-        "title": "Modern Real Estate Website",
+        "title": "Marketing Strategy & Planning",
         "description": "A sleek and responsive real estate website design with advanced property filters and city-wise listings."
     },
     {
         "id": 2,
         "img": "../src/assets/img/blog_img_2.png",
-        "title": "E-Commerce Dashboard UI",
+        "title": "The Power of Brand Storytelling",
         "description": "A clean e-commerce analytics dashboard template for monitoring sales, customers, and product performance."
     },
     {
         "id": 3,
         "img": "../src/assets/img/blog_img_3.png",
-        "title": "Travel App UI Kit",
+        "title": "A Guide to Creating Value-Driven Content",
         "description": "A mobile app UI kit featuring destination cards, hotel listings, and smooth booking flow screens."
     },
     {
         "id": 4,
         "img": "../src/assets/img/blog_img_4.png",
-        "title": "Restaurant Landing Page",
+        "title": "Which Social Media Platform Is Best",
         "description": "A visually appealing restaurant website layout with menu highlights, chef sections, and online reservation options."
     }
 ]
