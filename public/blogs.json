@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "https://example.com/images/product1.jpg",
+        "img": "../src/assets/img/blog_img_1.png",
         "title": "Modern Real Estate Website",
         "description": "A sleek and responsive real estate website design with advanced property filters and city-wise listings."
     },
