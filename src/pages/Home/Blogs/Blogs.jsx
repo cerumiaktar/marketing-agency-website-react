@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Blog from "./Blog";
+import { Link } from "react-router-dom";
 
 
 const Blogs = () => {
@@ -14,7 +15,7 @@ const Blogs = () => {
         <div className="container mx-auto mb-20">
             <div className="flex items-center justify-between">
                 <h1 class="text-2xl font-medium mb-8 dark:text-black">Blogs</h1>
-                <p className="text-lg">See all</p>
+                <Link to="/blogs"><p className="text-lg">See all</p></Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {
