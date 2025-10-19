@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 
 
 const Blog = ({ blog }) => {
     const { id, img, title, description } = blog;
     return (
-        <div>
+        <div className="flex grow">
             <div className="card bg-base-100 shadow-sm">
                 <figure>
                     <img
@@ -13,9 +14,9 @@ const Blog = ({ blog }) => {
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                    <p>{description}</p>
+                    <div className="w-full">
+                        <Link><button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] dark:border-none text-white w-full">Read More</button></Link>
                     </div>
                 </div>
             </div>
