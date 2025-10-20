@@ -3,6 +3,7 @@ import Root from "../Root/Root";
 import Home from "../pages/Home/Home/Home";
 import AllServices from "../pages/AllServices/AllServices";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
+import AllBlogs from "../pages/AllBlogs/AllBlogs";
 
 const router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
                     const service = services.find(s => s.id === idInt);
                     return service;
                 }
+            },
+            {
+                path: '/blogs',
+                element:<AllBlogs></AllBlogs>
             }
         ]
     },
