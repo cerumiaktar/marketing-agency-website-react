@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
+    const [blogsLength, setBlogsLength] = useState([4])
 
     useEffect(()=>{
         fetch('blogs.json')
@@ -19,7 +20,7 @@ const Blogs = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {
-                    blogs.map((blog)=><Blog blog={blog}></Blog>)
+                    blogs.slice(0,blogsLength).map((blog)=><Blog blog={blog}></Blog>)
                 }
             </div>
         </div>
