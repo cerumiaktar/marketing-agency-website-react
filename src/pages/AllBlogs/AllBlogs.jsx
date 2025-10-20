@@ -12,7 +12,7 @@ const AllBlogs = () => {
     }, [])
     return (
         <div className="container mx-auto">
-            <div className="">
+            <div className="grid grid-cols-1 md:grid-cols-4">
                 {
                     allBlogs.map((allBlog) =><AllBlog allBlog = {allBlog}></AllBlog>)
                 }
