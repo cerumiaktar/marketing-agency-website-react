@@ -18,7 +18,7 @@ const Reviews = () => {
                     <h1 class="text-3xl font-bold mb-8 text-white">Our Client Review</h1>
                 </div>
                 <Marquee>
-                    <div className="grid grid-cols-1 md:grid-cols-4">
+                    <div className="flex md:flex-row">
                         {
                             reviews.map((review) => <Review review={review}></Review>)
                         }

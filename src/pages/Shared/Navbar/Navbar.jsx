@@ -5,10 +5,11 @@ const Navbar = () => {
     const links = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/services">Services</NavLink></li>
+        <li><NavLink to="/pricing">Pricing</NavLink></li>
         <li><NavLink to="/experts">Experts</NavLink></li>
         <li><NavLink to="/blogs">Blogs</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/about">Contac Us</NavLink></li>
+        <li><NavLink to="/contact">Contac Us</NavLink></li>
     </>
     return (
         <div className="bg-base-100 dark:bg-white dark:text-black shadow-sm">
@@ -20,14 +21,14 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content text-base bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content text-lg bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             {links}
                         </ul>
                     </div>
                     <a className=""><img src="https://i.ibb.co/Rp9nD8c5/agency-logo.png" alt="logo" /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu text-base menu-horizontal px-1">
+                    <ul className="menu text-lg menu-horizontal px-1">
                         {links}
                     </ul>
                 </div>
