@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Review from "./Review";
+import Marquee from "react-fast-marquee";
 
 
 const Reviews = () => {
@@ -16,11 +17,13 @@ const Reviews = () => {
                 <div className="text-center">
                     <h1 class="text-3xl font-bold mb-8 text-white">Our Client Review</h1>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {
-                        reviews.map((review) => <Review review={review}></Review>)
-                    }
-                </div>
+                <Marquee>
+                    <div className="grid grid-cols-1 md:grid-cols-4">
+                        {
+                            reviews.map((review) => <Review review={review}></Review>)
+                        }
+                    </div>
+                </Marquee>
             </div>
         </div>
     );
