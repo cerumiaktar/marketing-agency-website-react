@@ -13,9 +13,8 @@ const Reviews = () => {
     return (
         <div className="bg-[#C049A799] mb-20">
             <div className="container mx-auto py-20">
-                <div className="flex items-center justify-between">
-                    <h1 class="text-2xl font-medium mb-8 dark:text-black">Our Client Review</h1>
-                    <p className="text-lg dark:text-[#333333]">See all</p>
+                <div className="text-center">
+                    <h1 class="text-3xl font-bold mb-8 text-white">Our Client Review</h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {
