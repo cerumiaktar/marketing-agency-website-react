@@ -3,10 +3,10 @@
 const About = () => {
     return (
         <div className="container mx-auto md:mb-20 flex flex-col md:flex-row gap-6">
-            <div className="md:w-6/12 relative mb-10 md:mb-0">
+            <div className="md:w-6/12 relative">
                 <img className="h-[473px]" src="https://i.ibb.co.com/QFMg8wr6/Frame-12.png" alt="about" />
-                <div className="absolute right-0 -bottom-10">
-                    <img className="w-[400px] h-[300px] rounded-2xl border-8 border-white" src="https://i.ibb.co.com/5hmn8KLq/Rectangle-4.png" alt="about" />
+                <div className="absolute right-0 -bottom-10 hidden md:block">
+                    <img className="w-[400px] md:h-[300px] rounded-2xl border-8 border-white" src="https://i.ibb.co.com/5hmn8KLq/Rectangle-4.png" alt="about" />
                 </div>
             </div>
             <div className="md:w-6/12 space-y-4">

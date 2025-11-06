@@ -15,7 +15,7 @@ const Reviews = () => {
         <div className="bg-[#C049A799] mb-20">
             <div className="container mx-auto py-20">
                 <div className="text-center">
-                    <h1 class="text-3xl font-bold mb-8 text-white">Our Client Review</h1>
+                    <h1 class="text-2xl font-bold mb-8 text-white">Our Client Review</h1>
                 </div>
                 <Marquee>
                     <div className="flex md:flex-row">
