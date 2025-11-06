@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/Yh9p7Jp/product-sales.png",
+        "title": "Product Sales"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/4sB4vDd/service-fees.png",
+        "title": "Service Revenue"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/GTS6pVh/investment.png",
+        "title": "Business Investment"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/6Hz2pYt/affiliate.png",
+        "title": "Affiliate Income"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co.com/XVgrKdM/salary.png",
+        "title": "Employee Salaries"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co.com/pbZbscx/marketing.png",
+        "title": "Marketing & Ads"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co.com/fGM8Gg1/office.png",
+        "title": "Operational Costs"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co.com/Bw1dcxW/technology.png",
+        "title": "Tech & Equipment"
+    }
+]
