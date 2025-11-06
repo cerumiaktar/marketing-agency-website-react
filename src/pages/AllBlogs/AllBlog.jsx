@@ -11,7 +11,7 @@ const AllBlog = ({ allBlog }) => {
                         <img
                             className="w-full"
                             src={img}
-                            alt="Shoes" />
+                            alt="all blogs" />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title dark:text-black">{title}</h2>
