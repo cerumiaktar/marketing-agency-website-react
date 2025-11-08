@@ -1,6 +1,7 @@
 
 
-const Project = () => {
+const Project = ({project}) => {
+    const {img, title} = project;
     return (
         <div>
             
