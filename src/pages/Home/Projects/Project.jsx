@@ -4,7 +4,7 @@ const Project = ({ project }) => {
     const { img, title } = project;
     return (
         <div>
-            <div className="card bg-base-100 shadow-2xl border">
+            <div className="card bg-base-100 shadow-2xl border border-[#C049A733]">
                 <figure>
                     <img 
                         className="w-full"
