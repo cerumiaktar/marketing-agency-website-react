@@ -14,7 +14,7 @@ const Expert = ({ expert }) => {
                     <h2 className="card-title mx-auto dark:text-black">{title}</h2>
                     <p className="dark:text-black">{designation}</p>
                     <div className="card-actions ">
-                        <button className="btn  bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] dark:border-none text-white w-full">View Details</button>
+                        <button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] dark:border-none text-white w-full">View Details</button>
                     </div>
                 </div>
             </div>
