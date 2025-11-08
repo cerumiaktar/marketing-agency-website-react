@@ -13,7 +13,7 @@ const Projects = () => {
     } ,[])
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto mb-20">
             <div className="text-center">
                 <h1 class="text-2xl font-bold mb-8">Our Projects</h1>
             </div>
