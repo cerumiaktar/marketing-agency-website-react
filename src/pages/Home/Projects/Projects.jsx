@@ -13,11 +13,11 @@ const Projects = () => {
     } ,[])
 
     return (
-        <div>
+        <div className="container mx-auto">
             <div className="text-center">
                 <h1 class="text-2xl font-bold mb-8">Our Projects</h1>
             </div>
-            <div>
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {
                     projects.map((project) =><Project project={project}></Project>)
                 }
