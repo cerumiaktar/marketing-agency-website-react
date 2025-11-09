@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "packageName": "Starter Package",
+        "price": 499,
+        "currency": "USD",
+        "duration": "per project",
+        "features": [
+            "1 Landing Page Design",
+            "Responsive Frontend Development",
+            "Basic SEO Optimization",
+            "Delivery within 7 days"
+        ]
+    },
+    {
+        "id": 2,
+        "packageName": "Business Package",
+        "price": 999,
+        "currency": "USD",
+        "duration": "per project",
+        "features": [
+            "Up to 5 Web Pages",
+            "Custom UI/UX Design",
+            "API Integration",
+            "Basic CMS Setup",
+            "Delivery within 14 days"
+        ]
+    },
+    {
+        "id": 3,
+        "packageName": "Professional Package",
+        "price": 1999,
+        "currency": "USD",
+        "duration": "per project",
+        "features": [
+            "Full Website Development",
+            "Advanced UI/UX Design",
+            "Database & Server Setup",
+            "Performance Optimization",
+            "Dedicated Project Manager",
+            "Delivery within 21 days"
+        ]
+    },
+    {
+        "id": 4,
+        "packageName": "Enterprise Package",
+        "price": 4999,
+        "currency": "USD",
+        "duration": "per project",
+        "features": [
+            "Custom Web Application",
+            "Scalable Cloud Infrastructure",
+            "Full Branding & Design System",
+            "24/7 Technical Support",
+            "Lifetime Maintenance Plan"
+        ]
+    }
+]
