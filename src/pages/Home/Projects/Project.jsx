@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Project = ({ project }) => {
@@ -6,16 +7,18 @@ const Project = ({ project }) => {
         <div>
             <div className="card bg-base-100 shadow-2xl border border-[#C049A733]">
                 <figure>
-                    <img 
+                    <img
                         className="w-full"
                         src={img}
                         alt="Shoes" />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title mx-auto">{title}</h2>
-                    <div className="card-actions">
-                        <button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] dark:border-none text-white w-full">Contact</button>
-                    </div>
+                    <Link to='/contact'>
+                        <div className="card-actions">
+                            <button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] dark:border-none text-white w-full">Contact</button>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
