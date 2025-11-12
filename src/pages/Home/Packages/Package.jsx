@@ -8,7 +8,7 @@ const Package = ({ pric }) => {
                 <div className="card-body">
                     <div className="text-center">
                         <h2 className="text-xl font-medium">{packageName}</h2>
-                        <span className="text-4xl font-bold">$29/mo</span>
+                        <span className="text-4xl font-bold">{price}</span>
                     </div>
                     <ul className="mt-6 flex flex-col gap-2 text-xs">
                         <li>
