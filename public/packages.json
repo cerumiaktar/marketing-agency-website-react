@@ -6,10 +6,16 @@
         "currency": "USD",
         "duration": "per project",
         "features": [
-            "1 Landing Page Design",
-            "Responsive Frontend Development",
+            "1 Landing Page Development",
+            "Responsive Frontend Design",
+            "Basic UI/UX Layout",
+            "Contact Form Integration",
             "Basic SEO Optimization",
-            "Delivery within 7 days"
+            "Cross-Browser Compatibility",
+            "1 Revision Included",
+            "Google Analytics Setup",
+            "Hosting & Domain Guidance",
+            "1 Month Free Support"
         ]
     },
     {
@@ -19,11 +25,16 @@
         "currency": "USD",
         "duration": "per project",
         "features": [
-            "Up to 5 Web Pages",
-            "Custom UI/UX Design",
-            "API Integration",
-            "Basic CMS Setup",
-            "Delivery within 14 days"
+            "Multi-Page Website Development",
+            "Modern Responsive UI/UX Design",
+            "Custom API Integration",
+            "Basic CMS Setup (WordPress / Custom)",
+            "SEO & Performance Optimization",
+            "Social Media Integration",
+            "Image & Speed Optimization",
+            "Security Best Practices Applied",
+            "3 Rounds of Revision",
+            "3 Months Technical Support"
         ]
     },
     {
@@ -33,12 +44,16 @@
         "currency": "USD",
         "duration": "per project",
         "features": [
-            "Full Website Development",
-            "Advanced UI/UX Design",
-            "Database & Server Setup",
-            "Performance Optimization",
-            "Dedicated Project Manager",
-            "Delivery within 21 days"
+            "Full Stack Web Application",
+            "Custom CMS & Admin Panel",
+            "Database Design & Integration",
+            "JWT Authentication System",
+            "Role-Based Access Control",
+            "Performance & Load Testing",
+            "Payment Gateway Integration",
+            "Deployment on Cloud (AWS/Vercel)",
+            "Maintenance Dashboard",
+            "6 Months Free Maintenance"
         ]
     },
     {
@@ -48,11 +63,16 @@
         "currency": "USD",
         "duration": "per project",
         "features": [
-            "Custom Web Application",
-            "Scalable Cloud Infrastructure",
+            "Custom Web Application (React, Next.js, Node.js)",
+            "Advanced Cloud Infrastructure Setup",
             "Full Branding & Design System",
-            "24/7 Technical Support",
-            "Lifetime Maintenance Plan"
+            "Multi-Tenant User Management System",
+            "Data Encryption & Backup Solutions",
+            "Integration with Third-Party APIs",
+            "Real-Time Notification System",
+            "Advanced Analytics Dashboard",
+            "24/7 Technical Support Team",
+            "Lifetime Maintenance & Security Updates"
         ]
     }
 ]
