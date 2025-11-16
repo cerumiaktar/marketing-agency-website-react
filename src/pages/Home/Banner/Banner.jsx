@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -15,7 +16,7 @@ const Banner = () => {
                             Unlock your business's full potential with our expert guidance and innovative strategies
                             tailored solutions that drive growth, and set you apart from the competition.
                         </p>
-                        <button className="btn bg-white dark:text-black dark:border-none animate-bounce">Contact Us</button>
+                        <Link to='/contact'><button className="btn bg-white dark:text-black dark:border-none animate-bounce">Contact Us</button></Link>
                     </div>
                 </div>
             </div>
