@@ -5,6 +5,7 @@ import AllServices from "../pages/AllServices/AllServices";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import AllBlogs from "../pages/AllBlogs/AllBlogs";
 import Contact from "../pages/Contact/Contact";
+import Experts from "../pages/Experts/Experts";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
             {
                 path: '/blogs',
                 element: <AllBlogs></AllBlogs>
+            },
+            {
+                path: '/experts',
+                element: <Experts></Experts>
             },
             {
                 path: '/contact',
