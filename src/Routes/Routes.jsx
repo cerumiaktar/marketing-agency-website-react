@@ -20,23 +20,25 @@ const router = createBrowserRouter([
                 element: <AllServices></AllServices>
             },
             {
-                path: '/service/:id',
+                path: '/services/:id',
                 element: <ServiceDetails></ServiceDetails>,
-                loader: async ({ params }) => {
-                    const res = await fetch('/services.json');
-                    const services = await res.json();
-                    const idInt = parseInt(params.id);
-                    const service = services.find(s => s.id === idInt);
-                    return service;
-                }
+                // loader: async ({ params }) => {
+                //     const res = await fetch("/services.json");
+                //     const services = await res.json();
+                    
+                //     const service = services.find((item) => item.id == params.id);
+                    
+                //     return service || null;
+
+                // }
             },
             {
                 path: '/blogs',
-                element:<AllBlogs></AllBlogs>
+                element: <AllBlogs></AllBlogs>
             },
             {
                 path: '/contact',
-                element:<Contact></Contact>
+                element: <Contact></Contact>
             }
         ]
     },
