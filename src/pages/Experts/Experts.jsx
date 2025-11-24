@@ -10,7 +10,7 @@ const Experts = () => {
             .then(data => setExperts(data))
     }, [])
     return (
-        <div>
+        <div className='container mx-auto mt-12'>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {
                     experts.map((expert, idx) => <Expert key={idx} expert={expert}></Expert>)
