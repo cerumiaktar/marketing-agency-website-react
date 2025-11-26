@@ -6,11 +6,13 @@ import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import AllBlogs from "../pages/AllBlogs/AllBlogs";
 import Contact from "../pages/Contact/Contact";
 import Experts from "../pages/Experts/Experts";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
+        errorElement:<ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
