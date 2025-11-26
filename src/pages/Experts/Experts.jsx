@@ -15,13 +15,13 @@ const Experts = () => {
                 className="hero h-[200px] mb-12 rounded-xl"
                 style={{
                     backgroundImage:
-                        "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+                        "url(https://i.ibb.co.com/5hmn8KLq/Rectangle-4.png)",
                 }}
             >
                 <div className="hero-overlay rounded-xl"></div>
                 <div className="hero-content text-neutral-content text-center">
                     <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+                        <h1 className="mb-5 text-5xl font-bold">All Experts</h1>
                     </div>
                 </div>
             </div>
