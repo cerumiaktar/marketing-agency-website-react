@@ -12,7 +12,7 @@ const Packages = () => {
     return (
         <div className="bg-[#C049A740] py-20 mb-12">
             <div className="text-center">
-                <h1 class="text-3xl font-bold mb-8">Pricing</h1>
+                <h1 class="text-3xl font-bold dark:text-black mb-8">Pricing</h1>
             </div>
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
                 {
