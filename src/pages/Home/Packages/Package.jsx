@@ -17,7 +17,7 @@ const Package = ({ pric }) => {
                         }
                     </ul>
                     <div className="mt-auto">
-                        <button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] btn-block text-white">Purchase Now</button>
+                        <button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] btn-block text-white dark:border-none">Purchase Now</button>
                     </div>
                 </div>
             </div>

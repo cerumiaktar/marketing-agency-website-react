@@ -15,7 +15,7 @@ const About = () => {
                 <p className=" md:w-4/6 leading-7 text-[#737373]">Our streamlined process ensures your digital success. We start with a thorough consultation to understand your goals, followed by in-depth research and strategy development,followed by in-depth research and strategy development <br /> <br />
                     Our creative team designs visually engaging solutions, which our developers then bring to life with cutting-edge technology.Partner with us to elevate your digital strategy.Partner with us to elevate your digital strategy.
                 </p>
-                <button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] text-white">Get More Info</button>
+                <button className="btn bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] text-white dark:border-none">Get More Info</button>
             </div>
         </div>
     );
