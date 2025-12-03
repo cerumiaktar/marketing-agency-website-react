@@ -4,17 +4,30 @@ import AllService from './AllService';
 const AllServices = () => {
     const [allServices, setAllServices] = useState([]);
 
-    useEffect(() =>{
+    useEffect(() => {
         fetch('services.json')
-        .then(res=>res.json())
-        .then(data=>setAllServices(data))
-    } ,[])
+            .then(res => res.json())
+            .then(data => setAllServices(data))
+    }, [])
     return (
         <div className='container mx-auto mt-12 mb-6'>
-            <h1 class="text-3xl font-bold text-center mb-8 dark:text-black">All Services</h1>
+            <div
+                className="hero h-[200px] mb-12 rounded-xl"
+                style={{
+                    backgroundImage:
+                        "url(https://i.ibb.co.com/5hmn8KLq/Rectangle-4.png)",
+                }}
+            >
+                <div className="hero-overlay rounded-xl"></div>
+                <div className="hero-content text-neutral-content text-center">
+                    <div className="max-w-md">
+                        <h1 className="mb-5 text-5xl font-bold">All Services</h1>
+                    </div>
+                </div>
+            </div>
             <div className='grid grid-cols-2 md:grid-cols-4 gap-6'>
                 {
-                    allServices.map((allService) =><AllService allService={allService}></AllService>)
+                    allServices.map((allService) => <AllService allService={allService}></AllService>)
                 }
             </div>
         </div>
