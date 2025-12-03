@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
-        "img": "../src/assets/img/blog_img_1.png",
+        "img": "https://i.ibb.co.com/5gDxWk6h/Rectangle-5-1.png",
         "title": "Marketing Strategy & Planning",
         "description": "A sleek and responsive real estate website design with advanced property filters and city-wise listings."
     },
     {
         "id": 2,
-        "img": "../src/assets/img/blog_img_2.png",
+        "img": "https://i.ibb.co.com/G4Bpkb5R/Rectangle-5.png",
         "title": "The Power of Brand Storytelling",
         "description": "A clean e-commerce analytics dashboard template for monitoring sales, customers, and product performance."
     },
     {
         "id": 3,
-        "img": "../src/assets/img/blog_img_3.png",
+        "img": "https://i.ibb.co.com/tTdr5pXv/Rectangle-3.png",
         "title": "A Guide to Creating Value-Driven Content",
         "description": "A mobile app UI kit featuring destination cards, hotel listings, and smooth booking flow screens."
     },
     {
         "id": 4,
-        "img": "../src/assets/img/blog_img_4.png",
+        "img": "https://i.ibb.co.com/5hmn8KLq/Rectangle-4.png",
         "title": "Which Social Media Platform Is Best",
         "description": "A visually appealing restaurant website layout with menu highlights, chef sections, and online reservation options."
     },
