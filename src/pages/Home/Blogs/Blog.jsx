@@ -10,7 +10,7 @@ const Blog = ({ blog }) => {
                     <img
                         className="w-full"
                         src={img}
-                        alt="Shoes" />
+                        alt="blogs_images" />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title dark:text-black">{title}</h2>
