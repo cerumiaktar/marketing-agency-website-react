@@ -10,7 +10,7 @@ const Project = ({ project }) => {
                     <img
                         className="w-full"
                         src={img}
-                        alt="Shoes" />
+                        alt="Projects" />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title mx-auto dark:text-black">{title}</h2>
