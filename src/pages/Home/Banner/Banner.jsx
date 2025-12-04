@@ -8,7 +8,7 @@ const Banner = () => {
                 <div className="hero-content flex flex-col lg:flex-row-reverse">
                     <img
                         src="https://i.ibb.co.com/zhshxJQf/Rectangle-2.png"
-                        className="md:max-w-sm rounded-lg shadow-2xl"
+                        className="md:max-w-sm rounded-lg shadow-2xl border-4 border-white"
                     />
                     <div>
                         <h1 className="text-4xl text-[#F5F5F5] font-bold">Grow Your Business with Our Expertise</h1>
