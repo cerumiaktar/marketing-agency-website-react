@@ -19,17 +19,17 @@ const Contact = () => {
             </div>
             <div>
                 <div className="space-y-4 w-6/12">
-                    <h1 className="text-3xl font-bold">Contact Us</h1>
+                    <h1 className="text-3xl font-bold dark:text-black">Contact Us</h1>
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Name</legend>
+                        <legend className="fieldset-legend text-xl dark:text-black">Name</legend>
                         <input type="text" className="input w-full" placeholder="Enter your name" />
                     </fieldset>
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Email</legend>
+                        <legend className="fieldset-legend text-xl dark:text-black">Email</legend>
                         <input type="email" className="input w-full" placeholder="Enter your email" />
                     </fieldset>
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend text-xl">Message</legend>
+                        <legend className="fieldset-legend text-xl dark:text-black">Message</legend>
                         <textarea className="textarea w-full" placeholder="Message"></textarea>
                     </fieldset>
                     <fieldset className="fieldset">
