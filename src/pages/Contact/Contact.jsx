@@ -1,4 +1,4 @@
-
+import { MdOutlineEmail, MdLocalPhone, MdLocationOn } from "react-icons/md";
 
 const Contact = () => {
     return (
@@ -17,8 +17,8 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <div className="space-y-4 w-6/12">
+            <div className="flex items-center gap-6">
+                <div className="space-y-4 md:w-6/12">
                     <h1 className="text-3xl font-bold dark:text-black">Contact Us</h1>
                     <fieldset className="fieldset">
                         <legend className="fieldset-legend text-xl dark:text-black">Name</legend>
@@ -33,8 +33,38 @@ const Contact = () => {
                         <textarea className="textarea w-full dark:bg-white dark:text-[#333333] dark:border dark:border-[#666666]" placeholder="Message"></textarea>
                     </fieldset>
                     <fieldset className="fieldset">
-                        <input type="submit" className="input w-full  bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] dark:border-none text-white text-xl text-center font-medium" placeholder="Message" />
+                        <input type="submit" className="input w-full  bg-linear-to-bl from-[#C049A799] to-[#6C3CE999] border-none dark:border-none text-white text-xl text-center font-medium" placeholder="Message" />
                     </fieldset>
+                </div>
+                <div className="md:w-6/12 h-[550px]">
+                    <div
+                        className="hero h-[500px] rounded-xl"
+                        style={{
+                            backgroundImage:
+                                "url(https://i.ibb.co.com/QFMg8wr6/Frame-12.png)",
+                        }}
+                    >
+                        <div className="hero-overlay bg-[#C049A7E6] rounded-xl"></div>
+                        <div className="text-neutral-content text-center">
+                            <div className="">
+                                <h1 className="mb-5 text-5xl font-bold">Contact Info</h1>
+                                <div className="grid gap-4">
+                                    <button className="btn bg-white text-black border-[#e5e5e5]">
+                                        <span className="text-xl"><MdOutlineEmail /></span>
+                                        info@gmail.com
+                                    </button>
+                                    <button className="btn bg-white text-black border-[#e5e5e5]">
+                                        <span className="text-xl"><MdLocalPhone /></span>
+                                        +88013XXXXXXXX
+                                    </button>
+                                    <button className="btn bg-white text-black border-[#e5e5e5]">
+                                        <span className="text-xl"><MdLocationOn /></span>
+                                        Dhaka,Bangladesh
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
