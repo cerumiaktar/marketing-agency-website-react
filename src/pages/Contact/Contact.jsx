@@ -1,4 +1,5 @@
 import { MdOutlineEmail, MdLocalPhone, MdLocationOn } from "react-icons/md";
+import { FaFacebookSquare,FaInstagramSquare,FaLinkedin,FaYoutubeSquare } from "react-icons/fa";
 
 const Contact = () => {
     return (
@@ -48,19 +49,25 @@ const Contact = () => {
                         <div className="text-neutral-content text-center">
                             <div className="">
                                 <h1 className="mb-5 text-5xl font-bold">Contact Info</h1>
-                                <div className="grid gap-4">
-                                    <button className="btn bg-white text-black border-[#e5e5e5]">
-                                        <span className="text-xl"><MdOutlineEmail /></span>
+                                <div className="grid gap-4 mb-5">
+                                    <button className="btn bg-white text-black border-[#e5e5e5] dark:shadow-none">
+                                        <p className="text-xl"><MdOutlineEmail /></p>
                                         info@gmail.com
                                     </button>
-                                    <button className="btn bg-white text-black border-[#e5e5e5]">
-                                        <span className="text-xl"><MdLocalPhone /></span>
+                                    <button className="btn bg-white text-black border-[#e5e5e5] dark:shadow-none">
+                                        <p className="text-xl"><MdLocalPhone /></p>
                                         +88013XXXXXXXX
                                     </button>
-                                    <button className="btn bg-white text-black border-[#e5e5e5]">
-                                        <span className="text-xl"><MdLocationOn /></span>
+                                    <button className="btn bg-white text-black border-[#e5e5e5] dark:shadow-none">
+                                        <p className="text-xl"><MdLocationOn /></p>
                                         Dhaka,Bangladesh
                                     </button>
+                                </div>
+                                <div className="flex items-center justify-center gap-4">
+                                    <p className="text-3xl"><FaFacebookSquare /></p>
+                                    <p className="text-3xl"><FaInstagramSquare /></p>
+                                    <p className="text-3xl"><FaLinkedin /></p>
+                                    <p className="text-3xl"><FaYoutubeSquare /></p>
                                 </div>
                             </div>
                         </div>
